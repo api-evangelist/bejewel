@@ -1,0 +1,16 @@
+generated: '2026-09-27'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.bejewel.design
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Nov  9 05:44:31 2026 GMT
+  hsts: true
+  hsts_max_age: 7889238
+domains:
+- domain: bejewel.design
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: false

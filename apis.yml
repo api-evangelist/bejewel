@@ -1,23 +1,62 @@
 aid: bejewel
+
 name: Bejewel
-description: 'Bejewel is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: http://www.bejewel.design/cdn/shop/files/logo_transparent_background_215_1cf27a7b-163a-45b4-98b2-8f30381c45b2.png?height=628&pad_color=fff&v=1689966085&width=1200
+
+description: 'Bejewel is a sustainable jewelry brand that creates eco‑friendly jewelry pieces with a focus on preserving the environment. The company sources ethically sourced materials and offers a range of necklaces, bracelets, earrings and rings through its online store.'
+
 url: https://raw.githubusercontent.com/api-evangelist/bejewel/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-27 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-27'
+
 modified: '2026-09-27'
+
 tags:
+- Jewelry
+- Sustainable
+- E-commerce
+- Fashion
+- Eco-friendly
 - Company
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/bejewel-llms.txt
+- type: WellKnown
+  url: well-known/bejewel-well-known.yml
+- type: Hosts
+  url: hosts/bejewel-hosts.yml
+- type: Vendors
+  url: vendors/bejewel-vendors.yml
+- type: Newsroom
+  url: https://www.bejewel.design/blogs/news
+- type: Login
+  url: https://www.bejewel.design/account/login
+- type: DomainSecurity
+  url: security/bejewel-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/bejewel
+  url: https://www.bejewel.design
+
+apis: []
+x-enrichment:
+  date: '2026-09-27'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

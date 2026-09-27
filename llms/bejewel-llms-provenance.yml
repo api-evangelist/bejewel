@@ -1,0 +1,6 @@
+generated: '2026-09-27'
+method: probed
+generator: harvest-llms.py
+source: https://www.bejewel.design/llms.txt
+bytes: 4443
+note: saved verbatim; the provider's own document
