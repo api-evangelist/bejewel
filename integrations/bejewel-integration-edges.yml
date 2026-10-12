@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/bejewel/integrations
+- https://n8n.io/integrations/bejewel/
+- https://composio.dev/toolkits/bejewel
+- https://monid.ai/tools/bejewel
+checked:
+- https://composio.dev/toolkits/bejewel
+- https://monid.ai/tools/bejewel
+- https://n8n.io/integrations/bejewel/
+- https://zapier.com/apps/bejewel/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
